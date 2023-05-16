@@ -1,0 +1,45 @@
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10%;
+  background-color: #ffffff;
+  padding: 0 20px;
+  border: 1px solid #cecece;
+}
+
+img {
+  width: 130px;
+}
+
+input {
+  height: 2rem;
+  width: 35rem;
+  border-radius: 0.2rem;
+  border: 1px solid #cecece;
+}
+
+.Nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.Nav p {
+  color: #999;
+}
+
+.Nav button {
+  height: 2rem;
+  width: 6rem;
+  border-radius: 0.2rem;
+  border: 1px solid #006ebd;
+  color: #006ebd;
+  background-color: #ffffff;
+}
+
+.Nav button.daftar {
+  color: #ffffff;
+  background-color: #006ebd;
+}
